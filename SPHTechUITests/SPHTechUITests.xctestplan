@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "7BBF0709-2DE2-4B70-AF0B-E2F56C47A70E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:SPHTech.xcodeproj",
+          "identifier" : "3449FE31244E081600FB9F3D",
+          "name" : "SPHTech"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SPHTech.xcodeproj",
+        "identifier" : "3449FE52244E081800FB9F3D",
+        "name" : "SPHTechUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
